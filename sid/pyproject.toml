@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sid"
+version = "0.1.0"
+description = ""
+authors = ["Sidharth Gupta <itissid@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sentencepiece = "^0.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
